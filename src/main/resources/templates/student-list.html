@@ -14,13 +14,15 @@
     <h2 th:case="null">No users found!</h2>
     <div th:case="*">
         <h2>Students</h2>
-        <table>
+        <table class="table table">
             <thead>
             <tr>
                 <th>Id</th>
                 <th>First name</th>
                 <th>Last name</th>
                 <th>Email</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
             </thead>
             <tbody>
